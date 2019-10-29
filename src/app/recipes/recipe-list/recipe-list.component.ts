@@ -11,7 +11,11 @@ export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe(
       'Vanila krem torta',
-      'Dobro uutite belanca uz dodavanje šećera i na kraju dodajte gustin i sok od limuna ili sirće.',
+      'Dobro uutite belanca uz dodavanje šećera.',
+      'https://www.recepti.com/img/recipe/45335-vanila-krem-torta.jpg'),
+    new Recipe(
+      'Vanila krem torta',
+      'Dobro uutite belanca uz dodavanje šećera.',
       'https://www.recepti.com/img/recipe/45335-vanila-krem-torta.jpg')
   ];
 
